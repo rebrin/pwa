@@ -1,0 +1,120 @@
+<!Doctype html>
+<html lang="es">
+<head>
+	<!-- cODIFICACIÒN  DE CARACTERES -->
+	<meta charset="UTF-8">
+
+	<!--viewPort -->
+	<meta name="viewPort"content="width=device-width, initial-scale=1.0, maximum-scale=1.0,
+	user-scalable=no"/>
+	<title>José Rebrindanard</title>
+	<!--añadiendo un favicon -->
+	<link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+	<!-- color de la aplicación-->
+	<meta name="theme-color" content="#FB314E"/>
+	<!-- pagina optimizada para movile -->
+	<meta name="MobileOptimized" content="width"/>
+	<!-- indicar que es una pwa-->
+	<meta name="HandheldFriendly" content="true"/>
+	<!--Metaetiquetas para que funcione en Apple -->
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="apple-mobile-web-app-status-bar-style"  content="black-translucent"/>
+	<!--icono para apple -->
+	<link rel="apple-touch-icon" href="img/favicon.png"/>
+	<!--splash screen apple-->
+	<link rel="apple-touch-startup-image" href="img/favicon.png"/>
+
+	<!-- Cargar el Manifiesto de configuración-->
+	 <link rel="manifest" href="manifest.json"/>
+	<!--cargando los estilos-->
+	<link rel="stylesheet" href="css/styles.css"/>
+
+	<!-- añadiendo la libreria jquery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- script js para el suavizado al visitar los services-->
+	<script src="main.js"></script>
+</head>
+<body>
+		<header id="main-header">
+		<div class="container">
+			<div id="logo"> <h1>Rebrindanard</h1></div>
+			<div id="menu">
+				<ul>
+					<li><a href="#main-header">inicio</a></li>
+					<li><a href="#services">servicios</a></li>
+					<li><a href="#videos">videos</a></li>
+					<li><a href="#footer">contacto</a></li>
+				</ul>
+			</div>
+		</div>
+		</header>
+		<div class="clearfix"></>
+		<div id="slider">
+			<div class="container">
+				<h2>profesor y desarrollador web</h2>
+			</div>
+		</div>
+		<div class="container">
+			<div id="services">
+				<h2 class="subheader">Servicios</h2>
+
+				<div class="service">
+						<img src="img/1.png"/>
+						<h3>Desarrollo web</h3>
+						<p>Ofrecemos servicios de desarrollo web. Podemos hacer tu pagina brillar y ser la mejor</p>
+				</div>
+
+				<div class="service">
+						<img src="img/2.png"/>
+						<h3>Diseño web </h3>
+						<p>Diseño de sitios y aplicaciones web administrativas modernas. Usamos las mejores tecnologias para desarrollo, estamos certificados w3</p>
+				</div>
+
+				<div class="service">
+						<img src="img/3.png"/>
+						<h3>Mentoría</h3>
+						<p>Podemos ser un buen tutor y mentor para desarrollo</p>
+				</div>
+			</div>
+		</div><!-- final de los servicios -->
+<!--- inicio de los videos-->
+<!-- aqui ponemos la regla de clearfix -->
+<div class="clearfix"></>
+	<div id="videos">
+		<div class="container">
+			<h2 class="subheader">Videos</h2>
+			<div class="video">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/qFjG6XHCKEc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				<p>Shingeki nyo coidah</p>
+			</div><!-- aqui termina cada video-->
+
+			<div class="video">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/qFjG6XHCKEc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				<p>Shingeki nyo coidah</p>
+			</div><!-- aqui termina cada video-->
+
+			<div class="video">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/qFjG6XHCKEc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				<p>Shingeki nyo coidah</p>
+			</div><!-- aqui termina cada video-->
+		</div>
+	</div><!-- final de los videos -->
+
+	<div class="clearfix"></>
+
+	<footer id="footer">
+		<div class="container">
+			<h2 class="subheader">Contacto</h2>
+			<p>Enviame un mensaje en cualquiera de estas redes sociales</p>
+			<ul id="networks">
+				<li><a href=""><img src="img/twitter.png"></a></li>
+				<li><a href=""><img src="img/facebook.png"></a></li>
+				<li><a href=""><img src="img/instagram.png"></a></li>
+			</ul>
+			<div class="clearfix"></>
+		</div>
+	</footer>
+</body>
+</html>
